@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Home">
+
+
+    <ImageView
+        android:id="@+id/caribbean_image"
+        android:layout_width="415dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="52dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/caribbeanflaavor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/restaurant_hours"
+        android:layout_width="212dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:text="Restaurant Hours:"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbean_image" />
+
+    <TextView
+        android:id="@+id/monday"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="56dp"
+        android:text="Monday: 10am - 8:15pm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbean_image" />
+
+    <TextView
+        android:id="@+id/tuesday"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="76dp"
+        android:text="Tuesday: 10am - 8:15pm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbean_image" />
+
+    <TextView
+        android:id="@+id/wednesday"
+        android:layout_width="179dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="96dp"
+        android:text="Wednesday: 10am - 8:15pm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbean_image" />
+
+    <TextView
+        android:id="@+id/thursday"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="120dp"
+        android:text="Thursday: 10am - 8:15pm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbean_image" />
+
+    <TextView
+        android:id="@+id/friday"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="140dp"
+        android:text="Friday: 10am - 8:45pm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbean_image" />
+
+    <TextView
+        android:id="@+id/saturday"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="160dp"
+        android:text="Saturday: 10am - 8:45pm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbean_image" />
+
+    <TextView
+        android:id="@+id/sunday"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="180dp"
+        android:text="Sunday: CLOSED"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbean_image" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="185dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="80dp"
+        android:textAlignment="center"
+        android:text="**Breakfast on Saturdays**"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbean_image" />
+
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="110dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="60dp"
+        android:background="#3AAF3E"
+        android:text="Menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/write_a_review"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="336dp"
+        android:text="Write a Review"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbean_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

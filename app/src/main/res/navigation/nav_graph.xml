@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/logIn">
+
+    <fragment
+        android:id="@+id/logIn"
+        android:name="com.example.caribbeanflaavor.LogIn"
+        android:label="Login"
+        tools:layout="@layout/fragment_log_in" >
+        <action
+            android:id="@+id/action_logIn_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_logIn_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.caribbeanflaavor.SignUp"
+        android:label="Sign Up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.caribbeanflaavor.Home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_review"
+            app:destination="@id/review" />
+        <action
+            android:id="@+id/action_home2_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/review"
+        android:name="com.example.caribbeanflaavor.Review"
+        android:label="Review"
+        tools:layout="@layout/fragment_review" >
+        <action
+            android:id="@+id/action_review_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.caribbeanflaavor.Menu"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menu_to_detail"
+            app:destination="@id/detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/detail"
+        android:name="com.example.caribbeanflaavor.Detail"
+        android:label="Detail"
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_detail_to_cart"
+            app:destination="@id/cart" />
+    </fragment>
+    <fragment
+        android:id="@+id/cart"
+        android:name="com.example.caribbeanflaavor.Cart"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cart_to_confirmation"
+            app:destination="@id/confirmation" />
+    </fragment>
+    <fragment
+        android:id="@+id/favorite"
+        android:name="com.example.caribbeanflaavor.Favorite"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favorite_to_detail"
+            app:destination="@id/detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmation"
+        android:name="com.example.caribbeanflaavor.Confirmation"
+        android:label="Order Confirmation"
+        tools:layout="@layout/fragment_confirmation" />
+    <action
+        android:id="@+id/action_global_home2"
+        app:destination="@id/home2" >
+        <action
+            android:id="@+id/action_action_global_home2_to_menu"
+            app:destination="@id/menu" />
+    </action>
+    <action
+        android:id="@+id/action_global_cart"
+        app:destination="@id/cart" />
+    <action
+        android:id="@+id/action_global_favorite"
+        app:destination="@id/favorite" />
+    <action
+        android:id="@+id/action_global_menu"
+        app:destination="@id/menu" />
+</navigation>

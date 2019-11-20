@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="132dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="76dp"
+        android:text="Jerked Chicken"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_size"
+        android:layout_width="148dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="108dp"
+        android:text="Small $10/Large $12"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_description"
+        android:layout_width="152dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="132dp"
+        android:text="Wet marinated meat with a Jamaican jerk spice."
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/food_image"
+        android:layout_width="172dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/jerk_chicken"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_name3"
+        android:layout_width="132dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="212dp"
+        android:text="Curry Chicken"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_size3"
+        android:layout_width="148dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="248dp"
+        android:text="Small $10/Large $12"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_description2"
+        android:layout_width="152dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="276dp"
+        android:text="Chicken seasoned with jamaican curry powder"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/food_image2"
+        android:layout_width="172dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="216dp"
+        android:src="@drawable/curry_chicken"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_name4"
+        android:layout_width="132dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="352dp"
+        android:text="Oxtail"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_size4"
+        android:layout_width="148dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="388dp"
+        android:text="Small $11/Large $14"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_description3"
+        android:layout_width="152dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="416dp"
+        android:text="Slow cooked stew made with a tail of cattle."
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/food_image3"
+        android:layout_width="172dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="356dp"
+        android:src="@drawable/oxtail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_name5"
+        android:layout_width="132dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="492dp"
+        android:text="Chicken Stew"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_size5"
+        android:layout_width="148dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="528dp"
+        android:text="Small $10/Large $12"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/food_description4"
+        android:layout_width="152dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="556dp"
+        android:text="Honey sweet stew made with chicken."
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/food_image4"
+        android:layout_width="172dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="496dp"
+        android:src="@drawable/chicken_stew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

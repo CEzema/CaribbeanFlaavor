@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "546507993539",
+    "firebase_url": "https://caribbeanflaavor-c2baf.firebaseio.com",
+    "project_id": "caribbeanflaavor-c2baf",
+    "storage_bucket": "caribbeanflaavor-c2baf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546507993539:android:42738d3bf18c461160cd76",
+        "android_client_info": {
+          "package_name": "com.example.caribbeanflaavor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546507993539-vtcrpcorrfl9u3gj9ftb67r12unmdsqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfair58ZIh_6Q61wjFd6Td9LXysIboT3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546507993539-vtcrpcorrfl9u3gj9ftb67r12unmdsqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
